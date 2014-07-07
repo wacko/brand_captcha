@@ -6,7 +6,7 @@ A BrandCAPTCHA library for ruby
 Description
 -----------
 
-API to interact with BrandCAPTCHA
+API to interact with [BrandCAPTCHA](http://www.pontamedia.com/en/brandcaptcha/)
 
 ## Installation
 
@@ -24,7 +24,7 @@ end
 ```
 
 
-On the view, inside the <form>
+On the view, inside the `<form>`
 ```
 <%= BrandCaptcha.widget =>
 ```
@@ -35,4 +35,4 @@ valid = BrandCaptcha.check_answer remote_ip, challenge, response
 ```
 
 ## Acknowledgement
-Based on [BrandCaptcha plugin](http://www.pontamedia.com/) for WordPress and [reCAPTCHA](http://recaptcha.net)
+Based on [BrandCaptcha plugin](http://www.pontamedia.com/en/brandcaptcha/) for WordPress and [reCAPTCHA](http://recaptcha.net)

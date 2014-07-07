@@ -4,11 +4,10 @@ Gem::Specification.new do |s|
   s.name              = "brand_captcha"
   s.version           = "0.0.1"
   s.summary           = "A BrandCAPTCHA library"
-  s.description       = "A BrandCAPTCHA library"
+  s.description       = "API to interact with BrandCAPTCHA\nhttp://www.pontamedia.com/en/brandcaptcha/"
   s.authors           = ["Joaquín Vicente"]
   s.email             = ["joakin@gmail.com"]
-  s.homepage          = "http://www.pontamedia.com/en/brandcaptcha/"
-  s.files             = []
+  s.homepage          = "https://github.com/wacko/brand_captcha"
   s.files             = Dir["lib/brand_captcha.rb", "README.md", "LICENSE", "brand_captcha.gemspec"]
 
   s.license           = "MIT"
