@@ -13,5 +13,5 @@ Gem::Specification.new do |s|
 
   s.license           = "MIT"
   s.executables.push("brand_captcha")
-  s.add_development_dependency "cutest"
+  s.add_development_dependency "cutest", "~> 1"
 end
